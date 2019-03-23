@@ -1,4 +1,4 @@
-/*module.exports = */function getZerosCount(number, base) {
+module.exports = function getZerosCount(number, base) {
   // your implementation
 
   var k = base;
@@ -88,4 +88,3 @@
   return min;
 
 }
-console.log(getZerosCount(71398757, 12))
